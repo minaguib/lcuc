@@ -1,0 +1,9 @@
+#!/usr/bin/env perl
+
+while(<>) {
+  $COUNT{$_}++;
+}
+
+while( ($k,$v) = each %COUNT) {
+  print "$v $k";
+}
