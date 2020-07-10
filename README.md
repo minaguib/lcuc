@@ -38,7 +38,7 @@ user	0m0.036s
 sys	0m0.016s
 ```
 
-lcuc unique count:
+`lcuc` unique count:
 ```
 $ time lcuc stream
 5576908 item3
